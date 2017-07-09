@@ -1,0 +1,34 @@
+{
+  "name": "collision-detection",
+  "version": "1.0.0",
+  "description": "html5 canvas collision-detection",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack-dev-server --progress --colors",
+    "build": "webpack -p",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aligos/collision-detection.git"
+  },
+  "keywords": [
+    "html5",
+    "canvas"
+  ],
+  "author": "Rahmat Aligos",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aligos/collision-detection/issues"
+  },
+  "homepage": "https://github.com/aligos/collision-detection#readme",
+  "devDependencies": {
+    "css-loader": "^0.28.4",
+    "extract-text-webpack-plugin": "^2.1.2",
+    "node-sass": "^4.5.3",
+    "sass-loader": "^6.0.6",
+    "style-loader": "^0.18.2",
+    "webpack": "^3.1.0",
+    "webpack-dev-server": "^2.5.0"
+  }
+}
