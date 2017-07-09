@@ -83,7 +83,7 @@ function Circle(x, y, radius, color) {
 let circle1;
 let circle2;
 function init() {
-	circle1 = new Circle(200, 300, 60, 'black');
+	circle1 = new Circle(canvas.width / 2, canvas.height / 2, 60, 'black');
 	circle2 = new Circle(10, 10, 10, 'yellow');
 }
 
